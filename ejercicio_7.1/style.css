@@ -1,0 +1,30 @@
+body{
+    background-color: #dfebf3;
+    font-family: 'Libre Caslon Display', serif;
+}
+
+h1{
+    letter-spacing: 10px;
+}
+
+.primeraParte{
+    text-align: center;
+}
+
+.seccionBotones{
+    height: 110px;
+    line-height: 150px;
+}
+button{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(245, 170, 140);
+    margin: 15px;
+    font-size: medium;
+    color: rgb(41, 39, 39);
+}
+
+img{
+    border-radius: 50%;
+}
