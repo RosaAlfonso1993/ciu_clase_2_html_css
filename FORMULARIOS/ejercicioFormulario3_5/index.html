@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3.2</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="cabezal">
+        <h1>
+            Bienvenidos a PetBook
+        </h1>
+    </div>
+    <div>
+        <img src="https://www.pinclipart.com/picdir/big/171-1711368_cules-son-las-mejores-mascotas-para-regalar-en.png" alt="" width="250px" height="250px">
+        <p>
+            PetBook es un <span>Red Social para mascotas</span>. <br>
+            Podes subir fotos, videos o hacer lives que podes compartir con tus amigos mascoteros!! 
+        </p>
+    </div>
+    <div >
+        <form action="https://formspree.io/mjvadnky" method="POST">
+            <label>Nombre de tu mascota: <input type="text" name="username" placeholder="Nombre" required> </label><br>
+            <label>Edad de la mascota: <input type="number" name="years" placeholder="Edad" required></label><br>
+            <label for="id_Email">Email: </label>
+            <input type="email" name="email" id="id_Email" placeholder="Email" required><br>
+            <label for="id_Contraseña">Contraseña: </label>
+            <input type="password" name="contraseña" id="id_Contraseña" placeholder="Contraseña" required><br>
+            <label for="id_color">Color de tu mascota: </label>
+            <input type="color" name="color" id="id_color" placeholder="Color"><br>
+            <label>Sexo: <br><input type="radio" id="hembra" name="genero" value="hembra">
+            <label for="hembra">Hembra</label><br>
+            <input type="radio" id="macho" name="genero" value="macho">
+            <label for="macho">Macho</label><br></label><br>
+            <label>Tipo de Mascota:<select name="tipo_de_mascota" required><option value="perro">Perro</option> <option value="gato">Gato</option>
+            <option value="conejo">Conejo</option><option value="cobayo">Cobayo</option><option value="loro">Loro</option></select></label><br>
+            <label>Contanos como es tu mascota:</label><br>
+            <textarea cols="40" rows="10"></textarea><br>
+            <input type="checkbox" name="bases_y_condiciones" value="acepta" required>
+            <label>Bases y condiciones.</label> <br>
+            <input type="submit">
+        </form> 
+    </div>
+    
+</body>
+</html>

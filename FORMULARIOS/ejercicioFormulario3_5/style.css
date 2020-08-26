@@ -1,0 +1,22 @@
+body{
+    font-family: 'Playfair Display', serif;
+    background-color: rgb(200, 233, 200);
+}
+
+span{
+    color: rgb(231, 90, 24);
+    font-size: x-large;
+}
+div{
+    text-align: center;
+    
+}
+h1{
+    letter-spacing: 10px;
+    font-size: xxx-large;
+}
+
+.cabezal{
+    background-color: rgb(243, 94, 24);;
+}
+
